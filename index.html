@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vanilla SPA Router</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <div id="root">
+            <div id="main-page"></div>
+            <div id="main-nav" class="sidebar">
+                <a class ="button" href="/" onclick="route()">Home</a>
+                <a class ="button" href="/profile" onclick="route()">Profile</a>
+                <a class ="button" href="/hometown" onclick="route()">Hometown</a>
+                <a class ="button" href="/food" onclick="route()">Food</a>
+                <a class ="button" href="/tourist" onclick="route()">Tourist</a>
+            </div>
+        </div>
+
+        <script src="js/router.js"></script>
+    </body>
+</html>
