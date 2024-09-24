@@ -120,3 +120,7 @@ body {
   margin-left: 128px;
   margin-right: 128px;
 }
+
+.page-container {
+  overflow-x: hidden;
+}
