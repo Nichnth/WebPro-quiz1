@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+h1, h2, h3, h4, h5, p{
+  color: #e2e2e2;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+b {
+  color: mediumaquamarine;
+}
+
+.sec-text {
+  color: #ababab;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #2e2e2e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.page {
+  margin-top: 96px;
+}
+
+.Hero-section {
+  width: 100vw;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.Base-section {
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+  margin-top: 96px;
+}
+
+.top-button {
+  margin-top: 32px;
+  margin-left: 96px;
+}
+
+.button{
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  color: #2e2e2e;
+  background-color: mediumaquamarine;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 2px solid rgb(41, 184, 137);
+}
+
+.homepage-button {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 256px;
+}
+
+.paragraph {
+  justify-content: center;
+  text-align: center;
+  margin-left: 128px;
+  margin-right: 128px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-content: center;
+}
+
+.profile-images {
+  width: 288px;
+  
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 32px;
+  overflow: hidden;
+}
+
+.title{
+  margin-bottom: 32px;
+  margin-left: 128px;
+  margin-right: 128px;
+}
