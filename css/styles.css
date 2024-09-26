@@ -81,7 +81,7 @@ body {
   gap: 12px;
 }
 
-.sidebar {
+.bottom-bar {
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -107,7 +107,6 @@ body {
 
 .profile-images {
   width: 288px;
-  
   align-items: center;
   justify-content: center;
   align-content: center;
